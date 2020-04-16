@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kim's portfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--header slide you have to add this css-->
+  <link rel="stylesheet" href="css/slick.css">
+  <!--.scrolla jquery used you have to added animation.min.css-->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <!-- script -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/scrolla.jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="wrap">  <!--warpping whole section-->
+    <header>
+      <div class="innerheader">
+        <h1 class="logo">
+          <a href="#">
+            <img src="img/logo.svg" width="50px"alt="logo">
+          </a>
+        </h1> <!--.logo-->
+        <nav class="menu">
+          <ul class="item">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT </a></li>
+            <li><a href="#project-id">MY PROJECTS</a></li>
+            <li><a href="#myskill">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>  <!--.innderheader-->
+    </header>
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <ul class="slide">
+        <li>
+          <img src="img/visual1.png" alt="heroimg1">
+          <div class="txt">
+            <p>Creative Designer</p>
+            <h3>My name is Kim <br>
+               I am a Web & <br> 
+              Graphic Designer <Br>
+              based out of Calgary AB
+            </h3>
+            <a href="#project-id"> Check My Work 
+              <span class="lnr lnr-chevron-right"></span> 
+            </a>
+          </div> <!--.txt-->
+          <span class="scroll">Scroll down</span>
+        </li>
+        <li>
+          <img src="img/visual2.png" alt="heroimg2">
+          <div class="txt">
+            <p> Creative Digital Media</p>
+            <h3>I am passinated about <br>Web Animation & Design<br></h3>
+            <a href="#project-id"> Check My Work 
+              <span class="lnr lnr-chevron-right"></span> 
+            </a>
+          </div> <!--.txt-->
+          <span class="scroll">Scroll down</span>
+        </li>
+        <li>
+          <img src="img/visual3.png" alt="heroimg3">
+          <div class="txt">
+            <p>Enjoy challenging new areas.  </p>
+            <h3>UI/UX and Coding  <Br> Graphic Design  <br>
+              I am still growing.</h3>
+            <a href="#project-id"> Check My Work 
+              <span class="lnr lnr-chevron-right"></span> 
+            </a>
+          </div> <!--.txt-->
+          <span class="scroll">Scroll down</span>
+        </li>
+      </ul>  <!--.slide-->
+    </section> <!--.hero-->
+<!-- contents -->
+    <section class="contents" id="about">
+      <div class="maintxt animate" data-animate="fadeInUp" data-duration="1s" data-delay="0s">
+        <h3> WHO AM I ? <Br><img src="img/about-kim.svg" width="180px"> <br> </h3>
+        <p>She graduated SAIT web develop certificate and she is working as a Web & Graphic designer.She designs her projects for easy maintenance, performance and simplicity. When she creates graphic designs, she uses Adobe design tools, svg, vector  hand drawn and whatever she can get her hands on.
+          <span> Also...she is big fan of Dogs!</span>
+        </p>
+      </div> <!--.maintxt-->
+      <div class="project" id="project-id">
+        <div class="top">
+          <h3 class="maintxt"> MEET <br>MY Project</h3>
+        </div> <!--.top-->
+        <ul class="maintxt animate" data-animate="fadeInUp" data-duration="1s" data-delay="0s">
+          <li>
+            <a href="./project1/index.html">
+              <img src="img/project.png" alt="project1">
+              <div class="name">
+                <span> HTML/CSS/VANLIA JAVASCRIPT</span>
+                <h3> CONTACT LISTS</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./project2/project1.html">
+              <img src="img/project2.png" alt="project2">
+              <div class="name">
+                <span> HTML/CSS/JSON/API</span>
+                <h3> MOCK API</h3>
+              </div>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="#">
+              <img src="img/project1.png" alt="project3">
+              <div class="name">
+                <span> WEBSITE</span>
+                <h3> title</h3>
+              </div>
+            </a>
+          </li> -->
+        </ul>
+      </div> <!--.project-->
+      <div class="myskill" id="myskill">
+        <h3>Software Skills </h3>
+        <ul class="maintxt animate" data-animate="fadeInRight" data-duration="1s" data-delay="0s">
+          <li><img src="img/skill1.png" alt="" width="150px;"></li>
+          <li><img src="img/skill2.png" alt="" width="150px;"></li>
+          <li><img src="img/skill3.png" alt="" width="150px;"></li>
+          <li><img src="img/skill5.png" alt="" width="150px;"></li>
+          <li><img src="img/skill6.png" alt="" width="150px;"></li>
+          <li><img src="img/skill7.png" alt="" width="150px;"></li>
+          <li><img src="img/skill8.png" alt="" width="150px;"></li>
+        </ul>
+      </div> <!--.myskill-->
+
+
+      <div class="contact animate" id="contact" data-animate="fadeInLeft" data-duration="2s" data-delay="0s">
+        <div class="inner">
+          <h3> IF YOU HAVE AN EXCTING PROJECT<br> I AM HERE FOR YOU</h3>
+          <p class="tel"> youngahkim0@gmail.com</p>
+          <p>UI/UX Design <br>
+            Web design <br>
+            Graphic Design <Br>
+          </p>
+        </div>
+        <form method="POST" method="POST"action="https://formspree.io/mknroarn">
+            <div class="form">
+              <div class="items">
+                <input type="text" class="input" placeholder="Username">
+              </div>
+              <div class="items">
+                <input type="text" class="input" placeholder="E-mail">
+              </div>
+              <div class="items">
+                <input class="input message"  placeholder="Message"></textarea>
+              </div>
+              <div class="btn">
+                <input type="submit" name="submit" id="submit" value="Send Message">
+              </div> <!--.btn-->
+            </div> <!--form-->
+        </form>
+      </div>  <!--.contact animation #contact-->
+    </section> <!--.contents 전체 컨텐츠 박스-->
+    <footer>
+      <ul>
+        <li> Copyright kim &copy;2020</li>
+        <li>
+          <a href="www.facebook.com"> <i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="www.google.ca"> <i class="fab fa-google-plus-g"></i> </a>  
+        </li>
+        <li>
+          Thank you for visiting <Br>
+        </li>
+      </ul>
+      <a href="#" class="gotop">
+        <p> go to top <span class="lnr lnr-arrow-up"></span></p>
+      </a>
+    </footer>
+  </div>  <!--.wrap-->
+
+</body>
+</html>

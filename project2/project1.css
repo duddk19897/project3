@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Syncopate&display=swap');
+
+
+body {
+    padding:0;
+    margin: 0;
+
+    box-sizing:border-box;
+    background-color:#cfd8dc;
+
+    font-family: 'Syncopate', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+h2 { 
+    color: #37474f;
+    text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------ */
+/* background css  */
+/* ------------------------------------------------------------ */
+.bg {
+    background: linear-gradient(-45deg, #37474f, #1A170E, #353C45, #6EA087
+    );
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+  
+    text-align:center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+.border{
+ 
+    border-radius: 10px;
+    display:inline-block;
+    text-align:center;
+    padding: 1.5rem;
+}
+
+.border,h1 h3 {
+    color:white;
+    margin:0;
+}
+.border h1 {
+    margin:0;
+    padding:0;
+}
+.border h3 {
+    margin:0;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* button css */
+/* ------------------------------------------------------------ */
+.btn_wrap{
+    background-color: #37474f;
+    width: 100vw;
+    
+    display: block;
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.btn { 
+    width: 8rem;
+
+    padding-bottom: 6px;
+    margin: 2rem;
+
+    background-color: #37474f;
+    color: white;
+
+    font-size: 1rem;
+
+    border:none;
+    border-bottom-style: double;
+  
+    font-family: 'Syncopate', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.btn:hover {
+    animation: bounce linear 0.4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bounce{
+    0% {
+      transform:  translate(0px,0px)  ;
+    }
+    15% {
+      transform:  translate(0px,-5px)  ;
+    }
+    30% {
+      transform:  translate(0px,0px)  ;
+    }
+  }
+  
+/* ------------------------------------------------------------ */
+/*  get api post css*/
+/* ------------------------------------------------------------ */
+
+.container,.getpost_wrap{
+    max-width: 800px;
+    margin: auto;
+  
+}
+
+.getpost_wrap{
+   margin:auto;
+   margin-bottom: 2rem;
+
+  
+   background-color: white;
+    box-shadow: 10px 9px 12px -6px rgba(171,171,171,0.83);
+
+   display:grid;
+   grid-template-columns: 100px 1fr;
+}
+
+.getpost_wrap h3 {
+    border-left: 10px solid #ea6153;
+    border-bottom: 1px solid darkgrey;
+  
+    padding:1rem;
+    margin:0;
+
+    text-align:center;
+}
+
+.getpost_wrap h3:nth-of-type(3){
+    border-bottom: none;
+}
+
+.getpost_wrap h3:nth-of-type(odd){
+    background:#f1f1f1;
+}
+
+.getpost_wrap .green {
+    border-left: 10px solid #27ae60;
+}
+
+.getpost_wrap .blue {
+    border-left: 10px solid #2980b9;
+}
+
+.getpost_wrap p {
+    padding:1rem;
+    margin:0;
+    border-bottom: 1px solid darkgrey;
+}
+
+.getpost_wrap p:nth-of-type(even){
+    background-color:#f1f1f1;
+}
+.getpost_wrap p:nth-of-type(3){
+    border-bottom: none;
+}
+
+/* ------------------------------------------------------------ */
+/* get api comment css */
+/* ------------------------------------------------------------ */
+.container,.getcomment_wrap{
+    max-width: 800px;
+    margin:auto;
+}  
+.getcomment_wrap {
+      background-color:white;
+  }
+
+  .getcomment_wrap{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+
+      box-shadow: 10px 9px 12px -6px rgba(171,171,171,0.83);
+    
+      margin-bottom: 2rem;
+  }
+
+  .getcomment_wrap h3 { 
+      margin:0;
+      padding:1rem;
+      text-align:center;
+      border-bottom: 1px solid darkgrey;
+  }
+
+  .getcomment_wrap .purple {
+      border-left: 10px solid #7851a9;
+  }
+  .getcomment_wrap .orange{
+      border-left: 10px solid #ea6153;
+  }
+  .getcomment_wrap .yellow{
+      border-left: 10px solid #d9e254;
+  }
+
+  .getcomment_wrap .red {
+      border-left: 10px solid #f04b4c;
+  }
+
+ .getcomment_wrap .blue{
+     border-left:10px solid  #2980b9;
+ }
+  .getcomment_wrap h3:nth-of-type(odd){
+    background:#f1f1f1;
+}
+
+.getcomment_wrap h3:nth-of-type(5){
+    border-bottom: none;
+}
+
+.getcomment_wrap p {
+    padding:1rem;
+    margin:0;
+
+    border-bottom: 1px solid darkgrey;
+}
+
+.getcomment_wrap p:nth-of-type(even){
+    background: #f1f1f1f1;
+}
+.getcomment_wrap p:nth-of-type(5){
+    border:none;
+}
+
+
+/* ------------------------------------------------------------ */
+/* get api users css */
+/* ------------------------------------------------------------ */
+
+.container,.getuser_wrap {
+    max-width: 800px;
+    margin: auto;
+}
+
+.getuser_wrap {
+    padding-left:0;
+    padding:1rem;
+    width: 500px;
+    background-color:white;
+  
+    border-top: 10px solid #37474f;
+    margin-bottom: 3rem;
+    box-shadow: 10px 9px 12px -6px rgba(171,171,171,0.83);
+    text-align:center;
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+
+.getuser_wrap:nth-of-type(odd){
+    border-top: 10px solid #ea6153;
+}
+
+.getuser_wrap h3 {
+    margin:0;
+    padding-top:10px;
+}
+
+.getuser_wrap,.getuser_item{
+    border-bottom:1px solid #eee;
+}
+
+/* ------------------------------------------------------------ */
+/* media query*/
+/* ------------------------------------------------------------ */
+
+ @media (max-width: 411px){
+    .container,.getcomment_wrap,.getuser_wrap {
+         width: 100%;
+     }
+} 

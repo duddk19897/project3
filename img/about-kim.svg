@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);stroke:#5043EF;stroke-miterlimit:10;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:none;stroke:#8886E2;stroke-width:4;stroke-miterlimit:10;
+		animation: key-ani 1s ease infinite;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#FCC8E0;}
+ 
+
+  @keyframes key-ani {
+	  0%{
+		  stroke: orangered;
+	  }
+
+	  20%{
+		  stroke: lightpurple;
+	  }
+	   50%{
+		   stroke: palevioletred;
+	   }
+	   100%{
+		   stroke : lightgreen;
+	   }
+	 }
+
+
+
+
+</style>
+<g>
+	<defs>
+		<ellipse id="SVGID_1_" cx="100.84" cy="99.25" rx="98.33" ry="96.75"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<polygon class="st0" points="146.14,107.61 145.88,107.73 145.64,107.57 145.66,107.28 145.93,107.15 146.17,107.32 	"/>
+	<g class="st1">
+		<line class="st2" x1="117.73" y1="-8.9" x2="234.05" y2="107.43"/>
+		<line class="st2" x1="101.46" y1="-11.35" x2="231.15" y2="118.35"/>
+		<line class="st2" x1="81.18" y1="-17.81" x2="230.93" y2="131.94"/>
+		<line class="st2" x1="75.88" y1="-9.29" x2="224.41" y2="139.23"/>
+		<line class="st2" x1="57.03" y1="-14.33" x2="222.62" y2="151.26"/>
+		<line class="st2" x1="33.05" y1="-24.5" x2="224.25" y2="166.7"/>
+		<line class="st2" x1="43.08" y1="-0.65" x2="212.21" y2="168.49"/>
+		<line class="st2" x1="35.81" y1="5.9" x2="194.16" y2="164.25"/>
+		<line class="st2" x1="27.48" y1="11.38" x2="189.48" y2="173.39"/>
+		<line class="st2" x1="21.42" y1="19.05" x2="186.54" y2="184.36"/>
+		<line class="st2" x1="2.52" y1="14.05" x2="168.11" y2="179.65"/>
+		<line class="st2" x1="-16.87" y1="8.49" x2="174.33" y2="199.68"/>
+		<line class="st2" x1="-19.68" y1="19.49" x2="171.52" y2="210.69"/>
+		<line class="st2" x1="-9.65" y1="43.33" x2="159.49" y2="212.47"/>
+		<line class="st2" x1="-16.92" y1="49.88" x2="141.43" y2="208.24"/>
+		<line class="st2" x1="-25.25" y1="55.37" x2="136.76" y2="217.37"/>
+		<line class="st2" x1="-31.3" y1="63.03" x2="133.81" y2="228.34"/>
+		<line class="st2" x1="-50.21" y1="58.04" x2="115.38" y2="223.63"/>
+		<line class="st2" x1="-69.6" y1="52.47" x2="121.6" y2="243.67"/>
+		<line class="st2" x1="-73.03" y1="62.86" x2="118.17" y2="254.06"/>
+		<line class="st2" x1="105.69" y1="-34.75" x2="222.02" y2="81.58"/>
+		<line class="st2" x1="117.96" y1="-35" x2="234.29" y2="81.32"/>
+	</g>
+</g>
+<g>
+	<g>
+		<circle cx="103.92" cy="96.52" r="57.14"/>
+		<ellipse cx="50.19" cy="55.58" rx="17.91" ry="16.2"/>
+	</g>
+	<path class="st3" d="M64.08,129.08l2.25-3.03c1.11-1.5,1.35-3.48,0.6-5.19c-2.71-6.17-7.83-21.17,4.44-24.79
+		c6.87-2.02,10.09,2.2,11.54,7.55c1.12,4.13,6.49,5.19,9.13,1.82c9.45-12.08,27.97-28.21,60.33-30.45c3.03-0.21,5.83,1.71,6.78,4.67
+		c4.22,13.17,12.4,49.78-17.97,71.21c0,0-38.76,26.36-76.73-15.15C62.73,133.88,62.58,131.09,64.08,129.08z"/>
+	<ellipse transform="matrix(0.9734 -0.2292 0.2292 0.9734 -23.6823 32.12)" cx="126.4" cy="117.99" rx="2.58" ry="3.01"/>
+	<ellipse transform="matrix(0.9734 -0.2292 0.2292 0.9734 -21.794 37.278)" cx="149.55" cy="112.44" rx="2.5" ry="2.91"/>
+	<path class="st4" d="M144.25,119.46c1.67,1.46,3.3,2.45,4.77,3.11c3.97,1.8,2.06,7.82-2.2,6.9c-0.07-0.02-0.15-0.03-0.22-0.05"/>
+	<path class="st4" d="M131.05,139.65c10.74,0.97,21.58-5.08,21.58-5.08"/>
+	<line class="st4" x1="126.3" y1="108.35" x2="131.04" y2="109.86"/>
+	<line class="st4" x1="144.58" y1="106.97" x2="147.63" y2="103.04"/>
+	<ellipse class="st5" cx="126.7" cy="129.69" rx="8.1" ry="5.12"/>
+	<ellipse class="st5" cx="152.5" cy="119.45" rx="4.05" ry="2.56"/>
+</g>
+</svg>
